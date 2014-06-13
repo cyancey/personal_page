@@ -1,0 +1,7 @@
+#navbar-list {
+  border: 1px solid red;
+}
+
+.pure-menu-selected {
+  background-color: green;
+}
