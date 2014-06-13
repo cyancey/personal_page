@@ -1,7 +1,37 @@
 #navbar-list {
-  border: 1px solid red;
+  float: right;
+}
+
+#navbar-list ul {
+  float: right;
+}
+
+#nav-logo {
+  text-align: center;
+}
+
+#name-title {
+  padding-top: 5%;
+  padding-left: 5%;
+
 }
 
 .pure-menu-selected {
   background-color: green;
+}
+
+#home-section {
+  width: 100%;
+}
+
+#home-section h1,h3 {
+  margin: 0;
+}
+
+.test-border {
+  /*border: 1px dashed red;*/
+}
+
+nav {
+  background-color: yellow;
 }
