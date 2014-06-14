@@ -1,3 +1,13 @@
+.horizontal-stripe {
+  max-width: 100%;
+  margin: auto;
+}
+
+.pure-g {
+  max-width: 900px;
+  margin: auto;
+}
+
 #navbar-list {
   float: right;
 }
@@ -11,10 +21,11 @@
 }
 
 #name-title {
-  padding-top: 5%;
-  padding-left: 5%;
-
+  padding-top: 45%;
+  padding-left: 15%;
+  /*vertical-align: middle;*/
 }
+
 
 .pure-menu-selected {
   background-color: green;
@@ -28,10 +39,15 @@
   margin: 0;
 }
 
+#me-picture img {
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
 .test-border {
   /*border: 1px dashed red;*/
 }
 
 nav {
-  background-color: yellow;
+  background-color: rgb(255, 202, 0);
 }
