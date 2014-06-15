@@ -26,6 +26,10 @@
   /*vertical-align: middle;*/
 }
 
+#about {
+  background-color: yellow;
+}
+
 
 .pure-menu-selected {
   background-color: green;
@@ -55,10 +59,13 @@
 }
 
 .project-details:nth-child(odd) {
-  background-color: grey
+  background-color: #00F1FF
 }
 
 .project-name {
+}
+
+.section-header {
   max-width: 900px;
   margin: auto;
 }
