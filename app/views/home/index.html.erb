@@ -34,7 +34,9 @@
     </div>
   </section>
 
-  <section class = "horizontal-stripe" id="projects-section">
-
+  <section id="projects-section">
+    <% @projects.each do |project| %>
+      <%= render partial: 'shared/project_details', locals: {project: project} %>
+    <% end %>
   </section>
 
