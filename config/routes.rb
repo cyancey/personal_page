@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'home#index'
+  post 'contact_email', to: 'contact#email'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
