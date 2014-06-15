@@ -1,5 +1,5 @@
 .horizontal-stripe {
-  max-width: 100%;
+  width: 100%;
   margin: auto;
 }
 
@@ -67,4 +67,5 @@
 
 nav {
   background-color: rgb(255, 202, 0);
+  position: fixed;
 }
