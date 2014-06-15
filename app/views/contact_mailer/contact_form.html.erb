@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>You got a message from your site, bro</h1>
+
+    <% if @contact_email %>
+    <p>
+      <h3>From:</h3>
+      <%= @contact_email %>
+    </p>
+    <% end %>
+
+    <% if @message %>
+    <p>
+      <h3>Message:</h3>
+      <%= @message %>
+    </p>
+    <% end %>
+  </body>
+</html>
