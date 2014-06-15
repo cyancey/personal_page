@@ -50,6 +50,10 @@
   padding-bottom: 4%;
 }
 
+.project-content {
+  padding-left: 4%
+}
+
 .project-details:nth-child(odd) {
   background-color: grey
 }
