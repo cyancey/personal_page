@@ -1,0 +1,3 @@
+class ProjectTechnologiesController < ApplicationController
+
+end
