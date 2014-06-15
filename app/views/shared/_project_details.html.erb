@@ -15,11 +15,15 @@
         <p><%= project.description %></p>
       </div>
 
+      <% if project.technologies %>
+
       <div class = "project-technologies">
         <% project.technologies.each do |technology| %>
           <%= link_to image_tag(technology.image_path, class: "pure-img"), "#{technology.url}", target: "blank" %>
         <% end %>
       </div>
+
+      <% end %>
     </div>
   </div>
 </div>
