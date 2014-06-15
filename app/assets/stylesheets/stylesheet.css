@@ -44,8 +44,13 @@
   margin-top: 10%;
 }
 
-.test-border {
-  /*border: 1px dashed red;*/
+.project-details {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.project-details:nth-child(odd) {
+  background-color: red
 }
 
 nav {
