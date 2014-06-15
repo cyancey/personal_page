@@ -1,3 +1,8 @@
+nav {
+  background-color: rgb(255, 202, 0);
+  position: fixed;
+}
+
 .horizontal-stripe {
   width: 100%;
   margin: auto;
@@ -6,47 +11,6 @@
 .pure-g {
   max-width: 900px;
   margin: auto;
-}
-
-#navbar-list {
-  float: right;
-}
-
-#navbar-list ul {
-  float: right;
-}
-
-#nav-logo {
-  text-align: center;
-}
-
-#name-title {
-  padding-top: 45%;
-  padding-left: 15%;
-  /*vertical-align: middle;*/
-}
-
-#about {
-  background-color: yellow;
-}
-
-
-.pure-menu-selected {
-  background-color: green;
-}
-
-#home-section {
-  width: 100%;
-}
-
-#home-section h1,h3 {
-  margin: 0;
-}
-
-#me-picture img {
-  border-radius: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .project-details {
@@ -76,7 +40,43 @@
   padding-left: 10px;
 }
 
-nav {
-  background-color: rgb(255, 202, 0);
-  position: fixed;
+.pure-menu-selected {
+  background-color: green;
 }
+
+#navbar-list {
+  float: right;
+}
+
+#navbar-list ul {
+  float: right;
+}
+
+#nav-logo {
+  text-align: center;
+}
+
+#name-title {
+  padding-top: 45%;
+  padding-left: 15%;
+  /*vertical-align: middle;*/
+}
+
+#about {
+  background-color: yellow;
+}
+
+#home-section {
+  width: 100%;
+}
+
+#home-section h1,h3 {
+  margin: 0;
+}
+
+#me-picture img {
+  border-radius: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
