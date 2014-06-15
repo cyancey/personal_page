@@ -33,6 +33,7 @@ nav {
 .section-header {
   max-width: 900px;
   margin: auto;
+  text-align: center;
 }
 
 .project-content-container {
@@ -89,3 +90,7 @@ nav {
   margin-bottom: 10%;
 }
 
+#message {
+  width: 100%;
+  max-width: 400px;
+}
