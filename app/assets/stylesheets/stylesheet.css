@@ -1,6 +1,7 @@
 nav {
   background-color: rgb(255, 202, 0);
   position: fixed;
+  z-index: 1;
 }
 
 .horizontal-stripe {
@@ -32,6 +33,14 @@ nav {
 .section-header {
   max-width: 900px;
   margin: auto;
+}
+
+.project-content-container {
+  position: relative;
+}
+
+.project-technologies {
+  position: absolute; bottom: 0
 }
 
 .project-technologies img {
