@@ -51,7 +51,7 @@
 }
 
 .project-details:nth-child(odd) {
-  background-color: red
+  background-color: grey
 }
 
 .project-name {
@@ -60,7 +60,9 @@
 }
 
 .project-technologies img {
-  max-height: 10%
+  max-height: 50px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 nav {
