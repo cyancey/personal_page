@@ -6,7 +6,8 @@ nav {
 
 
 body {
-  background-color: #6D71BB;
+  background: #00ff00 url('crossword.png') repeat;
+  background-color: #FFFFFF;
 }
 
 .horizontal-stripe {
@@ -35,6 +36,10 @@ body {
 .project-content {
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.project-details {
+  background-color: #70858F;
 }
 
 .project-details:nth-child(odd) {
@@ -92,7 +97,7 @@ body {
 }
 
 #about {
-  background-color: #70858F;
+  background-color: #1543A0;
 }
 
 #about-content p {
