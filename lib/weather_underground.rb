@@ -2,8 +2,9 @@ module WeatherUnderground
   extend self
   WUND_API_KEY = ENV['WUND_API_KEY']
 
-  def current_conditions
-    response = HTTParty.get("http://api.wunderground.com/api/#{WUND_API_KEY}/conditions/q/autoip.json")
+  def current_conditions(ip_address)
+
+    response = HTTParty.get("http://api.wunderground.com/api/#{WUND_API_KEY}/conditions/q/autoip.json?geo_ip=#{ip_address}")
 
     weather_info = {
       current_temp: response["current_observation"]["temp_f"],
