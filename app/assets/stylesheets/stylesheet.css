@@ -1,7 +1,12 @@
 nav {
-  background-color: rgb(255, 202, 0);
+  background-color: #FFFBB4;
   position: fixed;
   z-index: 1;
+}
+
+
+body {
+  background-color: #FFFFFF;
 }
 
 .horizontal-stripe {
@@ -33,7 +38,7 @@ nav {
 }
 
 .project-details:nth-child(odd) {
-  background-color: #00F1FF
+  background-color: #FFDCB4
 }
 
 .project-name {
@@ -87,7 +92,7 @@ nav {
 }
 
 #about {
-  background-color: yellow;
+  background-color: #FFDCB4;
 }
 
 #about-content p {
