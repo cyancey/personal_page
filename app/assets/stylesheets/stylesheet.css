@@ -92,13 +92,14 @@ nav {
 
 #me-picture {
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #me-picture img {
   border-radius: 100%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  max-width: 400px
+  max-width: 90%;
+  margin: auto;
 }
 
 #message {
