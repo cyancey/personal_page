@@ -19,6 +19,14 @@ nav {
   padding-bottom: 4%;
 }
 
+.project-image {
+  margin-left: 5%;
+}
+
+.project-image img {
+  max-width: 90%;
+}
+
 .project-content {
   padding-left: 4%
 }
@@ -28,20 +36,18 @@ nav {
 }
 
 .project-name {
+  text-align: center;
 }
 
 .section-header {
-  max-width: 900px;
-  margin: auto;
   text-align: center;
 }
 
 .project-content-container {
-  position: relative;
 }
 
 .project-technologies {
-  position: absolute; bottom: 0
+  margin-top: 10%;
 }
 
 .project-technologies img {
@@ -84,10 +90,15 @@ nav {
   margin: 0;
 }
 
+#me-picture {
+  text-align: center;
+}
+
 #me-picture img {
   border-radius: 100%;
   margin-top: 10%;
   margin-bottom: 10%;
+  max-width: 400px
 }
 
 #message {
