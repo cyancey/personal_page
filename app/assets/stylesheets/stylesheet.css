@@ -1,12 +1,12 @@
 nav {
-  background-color: #FFFBB4;
+  background-color: #FFE353;
   position: fixed;
   z-index: 1;
 }
 
 
 body {
-  background-color: #FFFFFF;
+  background-color: #6D71BB;
 }
 
 .horizontal-stripe {
@@ -38,7 +38,7 @@ body {
 }
 
 .project-details:nth-child(odd) {
-  background-color: #FFDCB4
+  background-color: #FF7B48
 }
 
 .project-name {
@@ -92,7 +92,7 @@ body {
 }
 
 #about {
-  background-color: #FFEFC1;
+  background-color: #70858F;
 }
 
 #about-content p {
