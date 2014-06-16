@@ -82,7 +82,8 @@ nav {
 }
 
 #name-title h1 {
-  padding-top: 70%
+  padding-top: 90%
+
 }
 
 #about {
@@ -132,6 +133,14 @@ nav {
 /*  background-color: yellow;
   margin: 0;
   height: 36;*/
+}
+
+@media screen and (min-width: 701px) and (max-width: 768px) {
+  #name-title h1 {padding-top: 70%}
+}
+
+@media screen and (min-width: 561px) and (max-width: 700px) {
+  #name-title h1 {padding-top: 50%}
 }
 
 @media screen and (min-width: 0px) and (max-width: 560px) {
