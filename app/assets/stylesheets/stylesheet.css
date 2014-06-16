@@ -122,3 +122,14 @@ nav {
   width: 90%;
   margin: auto;
 }
+
+#weather-conditions a {
+  vertical-align: top;
+  background-color: transparent;
+}
+
+#temperature {
+/*  background-color: yellow;
+  margin: 0;
+  height: 36;*/
+}
