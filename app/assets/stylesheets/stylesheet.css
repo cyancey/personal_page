@@ -133,3 +133,8 @@ nav {
   margin: 0;
   height: 36;*/
 }
+
+@media screen and (min-width: 0px) and (max-width: 560px) {
+  nav { display: none; }
+  #name-title h1 {padding-top: 30%}
+}
