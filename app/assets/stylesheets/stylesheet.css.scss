@@ -3,6 +3,11 @@ a {
   text-decoration: none;
 }
 
+.project-details a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 nav {
   background-color: #FFE353;
   position: fixed;
