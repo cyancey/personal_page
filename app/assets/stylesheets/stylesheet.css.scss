@@ -51,11 +51,15 @@ body {
 }
 
 .project-details {
-  background-color: #A7EEFF;
+  background-color: #B894FF;
 }
 
-.project-details:nth-child(odd) {
-  background-color: #FF7B48
+.project-details:nth-child(1) {
+  background-color: #FF7B48;
+}
+
+.project-details:nth-child(3) {
+  background-color: #A7EEFF;
 }
 
 .project-name {
